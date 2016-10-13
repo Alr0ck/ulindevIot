@@ -18,7 +18,6 @@ visit me : http://ulindev.com
 #endif
 
 #include <SoftwareSerial.h>
-#include <ArduinoJson.h>
 
 class ulindevIot{
 	public:
