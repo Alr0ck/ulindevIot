@@ -6,8 +6,8 @@ Simple and easy to use beginners.
 
 example to use this code with arduino (mega, uno, nano, etc) :
 
-#include <ulindevIot.h>
-#define address "YOUR_DOMAIN_ADDRESS"
+include "ulindevIot.h"
+define address "YOUR_DOMAIN_ADDRESS"
 
 void setup() {
   // put your setup code here, to run once:
