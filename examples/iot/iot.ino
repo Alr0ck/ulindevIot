@@ -5,6 +5,13 @@
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  
+  /* ---------------------------------------------  
+    Change this baudrate value to fixed
+    your communication between Arduino and ESP8266.
+    The default value of ESP8266 is 115200.
+    Ex : ul.begin(115200);
+  ----------------------------------------------- */
   ul.begin(9600);
 }
 
