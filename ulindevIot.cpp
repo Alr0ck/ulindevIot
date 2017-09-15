@@ -12,7 +12,7 @@ visit me : http://ulindev.com
 
 SoftwareSerial esp(3,4);
 
-void ulindevIot::begin(int baudrate){
+void ulindevIot::begin(long baudrate){
 	esp.begin(baudrate);
 	Serial.println("==========================================");
 	Serial.println("Created with Love by : HCIX_c0d3r");
