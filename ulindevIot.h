@@ -21,7 +21,7 @@ visit me : http://ulindev.com
 
 class ulindevIot{
 	public:
-	void begin(int baudrate);
+	void begin(long baudrate);
 	bool connectTo(String SSID, String PASS);
 	void sendDataTo(String GET, String IP);
 	void sendDebug(String cmd);
